@@ -1,5 +1,5 @@
 // Define class here
-const HTMLElement = class HTMLElement {
+class HTMLElement {
   constructor(tag, content) {
     // Instance variables: https://stackoverflow.com/questions/55505710/what-is-an-instance-variable-in-javascript
     this.tag = tag;
