@@ -1,4 +1,4 @@
-import people from './people.json';
+import people from './people.json' assert { type: 'json' };
 
 people.forEach((person) => {
   const { name, email, phone } = person;
