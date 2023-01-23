@@ -13,4 +13,4 @@ class HTMLElement {
 };
 
 // Export class here
-export default { HTMLElement };
+export { HTMLElement };

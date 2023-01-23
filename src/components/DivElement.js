@@ -1,5 +1,5 @@
 // Import HTMLElement here
-import { HTMLElement } from './HTMLElement';
+import { HTMLElement } from './HTMLElement.js';
 
 // Define class here
 class DivElement extends HTMLElement {
@@ -9,4 +9,4 @@ class DivElement extends HTMLElement {
 }
 
 // Export class here
-export default { DivElement };
+export { DivElement };
